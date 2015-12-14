@@ -216,6 +216,9 @@ public class MainActivity extends AppCompatActivity {
    public boolean onOptionsItemSelected(MenuItem item) {
 
    int id = item.getItemId();
+   if (id == R.id.action_take_photo) {
+    Toast.makeText(this, "take photo", Toast.LENGTH_SHORT).show();
+   }
     return super.onOptionsItemSelected(item);
    }
 
